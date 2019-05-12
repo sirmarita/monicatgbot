@@ -33,7 +33,7 @@ Click Help button to find out more about how to use me to my full potential. Joi
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](tg://user?id=203887950) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer. 
-https://orangefox.tech/donate."""
+"""
 
 
 IMPORTED = {}

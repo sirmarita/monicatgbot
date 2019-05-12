@@ -195,7 +195,7 @@ if is_module_loaded(FILENAME):
         return build_curr_disabled(chat.id, chat.id)
 
 
-    __mod_name__ = "Cmd Disabling"
+    __mod_name__ = "Commands Disabling"
 
     __help__ = """
     Not everyone wants every feature that Trippy offers. Some commands are best left unused; to avoid spam and abuse.

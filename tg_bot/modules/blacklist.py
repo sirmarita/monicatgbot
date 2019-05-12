@@ -207,7 +207,7 @@ If you wanted to only match `bit.ly/` links followed by three characters, you co
 
 `/addblacklist "bit.ly/??? " We dont like shorteners`!
 
-This would matc`h bit.ly/abc`, but not `bit.ly/abcd`.
+This would match `bit.ly/abc`, but not `bit.ly/abcd`.
 
 *For All:*
 

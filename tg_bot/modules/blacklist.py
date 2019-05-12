@@ -201,13 +201,13 @@ You could also use the * modifier, which matches any number of any character. If
 
 For example, the following will ban any `bit.ly` link:
 
-`/addblacklist "bit.ly/* " We dont like shorteners`!
+<code>/addblacklist "bit.ly/* " We dont like shorteners</code>!
 
-If you wanted to only match `bit.ly/` links followed by three characters, you could use:
+If you wanted to only match <code>bit.ly/</code> links followed by three characters, you could use:
 
-`/addblacklist "bit.ly/??? " We dont like shorteners`!
+<code>/addblacklist "bit.ly/??? " We dont like shorteners</code>!
 
-This would match `bit.ly/abc`, but not `bit.ly/abcd`.
+This would match <code>bit.ly/abc</code>`, but not <code>bit.ly/abcd</code>.
 
 *For All:*
 

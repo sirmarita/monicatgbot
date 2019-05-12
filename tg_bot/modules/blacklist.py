@@ -195,7 +195,7 @@ the message will immediately be deleted. A good combo is sometimes to pair this 
 
 *Top Tip:*
 
-Blacklists allow you to use some modifiers to match "unknown" characters. For example, you can use the? character to match a single occurence of any non-whitespace character.
+Blacklists allow you to use some modifiers to match "unknown" characters. For example, you can use the `?` character to match a single occurence of any non-whitespace character.
 
 You could also use the `*` modifier, which matches any number of any character. If you want to blacklist urls, this will allow you to match the full thing. It matches every character except spaces. This is cool if you want to stop, for example, url shorteners.
 

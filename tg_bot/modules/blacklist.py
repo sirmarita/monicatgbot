@@ -197,17 +197,17 @@ the message will immediately be deleted. A good combo is sometimes to pair this 
 
 Blacklists allow you to use some modifiers to match "unknown" characters. For example, you can use the? character to match a single occurence of any non-whitespace character.
 
-You could also use the * modifier, which matches any number of any character. If you want to blacklist urls, this will allow you to match the full thing. It matches every character except spaces. This is cool if you want to stop, for example, url shorteners.
+You could also use the `*` modifier, which matches any number of any character. If you want to blacklist urls, this will allow you to match the full thing. It matches every character except spaces. This is cool if you want to stop, for example, url shorteners.
 
 For example, the following will ban any `bit.ly` link:
 
-<code>/addblacklist "bit.ly/* " We dont like shorteners</code>!
+`/addblacklist "bit.ly/*` " `We dont like shorteners`!
 
-If you wanted to only match <code>bit.ly/</code> links followed by three characters, you could use:
+If you wanted to only match `bit.ly` links followed by three characters, you could use:
 
-<code>/addblacklist "bit.ly/??? " We dont like shorteners</code>!
+`addblacklist "bit.ly/??? " We dont like shorteners`!
 
-This would match <code>bit.ly/abc</code>`, but not <code>bit.ly/abcd</code>.
+This would match `bit.ly/abc`, but not `bit.ly/abcd`.
 
 *For All:*
 

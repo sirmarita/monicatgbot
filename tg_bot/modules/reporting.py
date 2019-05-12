@@ -125,7 +125,13 @@ __mod_name__ = "Reporting"
 __help__ = """
  - /report <reason>: reply to a message to report it to admins.
  - @admin: reply to a message to report it to admins.
-NOTE: neither of these will get triggered if used by admins
+*NOTE*: neither of these will get triggered if used by admins
+
+To report a user, simply reply to his message with @admin or /report; Trippy will then reply with a message stating that admins have been notified. This message *tags all* the chat admins; same as if they had been @'ed.
+
+You MUST reply to a message to report a user; you can't just use @admin to tag admins for no reason!
+
+Note that the report commands do not work when admins use them; or when used to report an admin. Trippy assumes that admins don't need to report, or be reported!
 
 *Admin only:*
  - /reports <on/off>: change report setting, or view current status.

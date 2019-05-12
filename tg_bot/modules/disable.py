@@ -198,7 +198,7 @@ if is_module_loaded(FILENAME):
     __mod_name__ = "Commands Disabling"
 
     __help__ = """
-    Not everyone wants every feature that Trippy offers. Some commands are best left unused; to avoid spam and abuse.
+Not everyone wants every feature that Trippy offers. Some commands are best left unused; to avoid spam and abuse.
 
 This allows you to disable some commonly used commands, so none can use them. It'll also allow you to autodelete them, stopping people from abusing them.
 

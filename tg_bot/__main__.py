@@ -20,7 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 from tg_bot.modules.translations.strings import tld, tld_help 
 from tg_bot.modules.connection import connected
 
-PM_START = """Hi {}, My name is {} - I'm here to help you manage your groups!
+PM_START = """Hi *{}*, My name is {} - I'm here to help you manage your groups!
 
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 I'm built in python3, using the python-telegram-bot library.
@@ -147,7 +147,7 @@ def send_start(bot, update):
 
     keyboard = [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
     keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_"), 
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
+        InlineKeyboardButton(text="🆘 Help", callback_data="help_back")]]
     update.effective_message.reply_text(PM_START.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
 def control_panel(bot, update):

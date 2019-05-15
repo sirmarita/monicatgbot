@@ -20,7 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 from tg_bot.modules.translations.strings import tld, tld_help 
 from tg_bot.modules.connection import connected
 
-PM_START = """Hi *{}*, My name is {} - I'm here to help you manage your groups!
+PM_START = """Hi *{}*, My name is *{}* - I'm here to help you manage your groups!
 
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 I'm built in python3, using the python-telegram-bot library.
@@ -32,7 +32,7 @@ Click Help button to find out more about how to use me to my full potential. Joi
 
 Want to add me to your chat? [Click here](http://telegram.me/marielbrabot?startgroup=botstart)."""
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
+DONATE_STRING = """Heyo, glad to hear you want to donate!
 It took lots of work for [my creator](tg://user?id=203887950) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer. 
 Click [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYRR8M4HKWXUL&source=url)to donate to my master securely.

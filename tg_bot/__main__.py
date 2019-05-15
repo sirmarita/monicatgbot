@@ -35,6 +35,7 @@ Want to add me to your chat? [Click here](http://telegram.me/marielbrabot?startg
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](tg://user?id=203887950) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer. 
+Click [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYRR8M4HKWXUL&source=url)to donate to my master securely.
 """
 
 
@@ -169,7 +170,7 @@ def control_panel(bot, update):
 
         print(query.data)
     else:
-        M_match = "Monica is best bot"
+        M_match = "Trippy is best bot"
 
     if M_match:
         text = "*Control panel* 🛠 (beta)"
@@ -520,8 +521,8 @@ def donate(bot: Bot, update: Update):
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
         if OWNER_ID != 254318997 and DONATION_LINK:
-            update.effective_message.reply_text("You can also donate to the person currently running me "
-                                                "[here]({})".format(DONATION_LINK),
+            update.effective_message.reply_text("You can donate to the person currently running me "
+                                                "[here].({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
 
     else:

@@ -379,7 +379,7 @@ def temp_nomedia(bot: Bot, update: Update, args: List[str]) -> str:
     if not mutetime:
         return ""
 
-    log = "#TEMP RESTRICTED" \
+    log = "#TEMP_RESTRICTED" \
           "\n<b>Chat:</b> {}" \
           "\n<b>• Admin:</b> {}" \
           "\n<b>• User:</b> {}" \
@@ -424,7 +424,7 @@ __help__ = """
 """
 
 
-__mod_name__ = "Restricting"
+__mod_name__ = "Mute/Restricting"
 
 MUTE_HANDLER = CommandHandler("mute", mute, pass_args=True)
 UNMUTE_HANDLER = CommandHandler("unmute", unmute, pass_args=True)

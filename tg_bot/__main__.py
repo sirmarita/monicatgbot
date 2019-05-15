@@ -35,7 +35,7 @@ Want to add me to your chat? [Click here](http://telegram.me/marielbrabot?startg
 DONATE_STRING = """Heyo, glad to hear you want to donate!
 It took lots of work for [my creator](tg://user?id=203887950) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer. 
-Click [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYRR8M4HKWXUL&source=url)to donate to my master securely.
+Click [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYRR8M4HKWXUL&source=url) to donate to my master securely.
 """
 
 

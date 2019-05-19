@@ -43,10 +43,10 @@ def send_rules(update, chat_id, from_pm=False):
                                   "This probably doesn't mean it's lawless though...!")
     elif rules: 
          if chat.type == "private":
-             update.effective_message.reply_text(rules, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
+             update.effective_message.reply_text(rules, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=False)
          else:   
              try:
-                 bot.send_message(user.id, rules, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
+                 bot.send_message(user.id, rules, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=False)
                  update.effective_message.reply_text("I've PM'ed you this group rule's!")
              except Unauthorized:
                  update.effective_message.reply_text("Contact me in PM to get this group's rules!",

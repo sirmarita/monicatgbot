@@ -30,7 +30,7 @@ A few handy commands are:
  - /donate: gives you info on how to support me and my creator.
 Click Help button to find out more about how to use me to my full potential. Join to my [NEWS CHANNEL](https://t.me/joinchat/AAAAAFKHoQPlwQc6Eqnt5A) for announcements on new features, downtime, etc.
 
-Want to add me to your chat? [Click here](http://telegram.me/marielbrabot?startgroup=botstart)."""
+Want to add me to your chat? [Click here](http://telegram.me/trippyadminbot?startgroup=botstart)."""
 
 DONATE_STRING = """Heyo, glad to hear you want to donate!
 It took lots of work for [my creator](tg://user?id=203887950) to get me to where I am now, and every donation helps \
